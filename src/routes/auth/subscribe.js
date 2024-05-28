@@ -21,7 +21,7 @@ router.post('/subscribe', async function(req, res) {
     let data = await userService.subscribe(user, userLogin) ;
     res.status(201).jsend.success(data);
   } catch(err) {
-    console.log(err);
+    // console.log(err);
     let data = {
       message: err.message
     };

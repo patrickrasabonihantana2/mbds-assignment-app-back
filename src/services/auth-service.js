@@ -13,17 +13,17 @@ class AuthService {
       await mongoose.connect(Env.MONGO_URL);
 
       let userLogin = await UserLogin.findOne({username: userLoginData.username});
-      console.log(userLogin);
+      // console.log(userLogin);
 
       let match = await bcrypt.compare(userLoginData.password, userLogin.password);
-      console.log(match);
+      // console.log(match);
 
       if(!userLogin || !match) {
         throw new Error('User not found');
       }
 
       let user = await User.findById(userLogin.user);
-      console.log(user);
+      // console.log(user);
 
       let tokenData = {
         user: {
