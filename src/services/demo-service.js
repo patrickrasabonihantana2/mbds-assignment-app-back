@@ -5,12 +5,12 @@ const Env = require('../util/env');
 const users = require('../demo-data/assignment.users.json');
 const userLogins = require('../demo-data/assignment.userlogins.json');
 const subjects = require('../demo-data/assignment.subjects.json');
+const assignments = require('../demo-data/assignment.assignments.json');
 
 const User = require('../models/user-schema');
 const UserLogin = require('../models/user-login-schema');
 const Subject = require('../models/subject-schema');
-
-const AuthService = require('./auth-service');
+const Assignment = require('../models/assignment-schema');
 
 class DemoService {
   async populateUsers() {
@@ -67,6 +67,35 @@ class DemoService {
           teacher: subject.teacher.$oid
         };
         let s = new Subject(data);
+        await s.save();
+      }
+    } catch(err) {
+      throw err;
+    } finally {
+      if(mongoose.connection.readyState == 'connected') {
+        await mongoose.disconnect();
+      }
+    }
+  }
+
+  async populateAssignments() {
+    try {
+      await mongoose.connect(Env.MONGO_URL);
+
+      await Assignment.deleteMany();
+
+      for(let assignment of assignments) {
+        let data = {
+          _id: assignment._id.$oid,
+          name: assignment.name,
+          submited: assignment.submited,
+          score: assignment.score,
+          comments: assignment.comments,
+          subject: assignment.subject.$oid,
+          author: assignment.author.$oid
+        };
+        data.submission_date = (assignment.submission_date != undefined) ? assignment.submission_date.$date : null;
+        let s = new Assignment(data);
         await s.save();
       }
     } catch(err) {
