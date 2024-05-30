@@ -7,6 +7,7 @@ var jsend = require('jsend');
 var indexRouter = require('./routes/index');
 var apiRouter = require('./src/routes/api');
 var authRouter = require('./src/routes/auth');
+const tokenSecurity = require('./src/middlewares/token');
 
 var app = express();
 
@@ -18,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(jsend.middleware);
 
 app.use('/', indexRouter);
-app.use('/api', apiRouter);
+app.use('/api', tokenSecurity, apiRouter);
 app.use('/auth', authRouter);
 
 module.exports = app;
