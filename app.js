@@ -3,6 +3,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var jsend = require('jsend');
+const corsSecurity = require('./src/middlewares/cors');
 
 var indexRouter = require('./routes/index');
 var apiRouter = require('./src/routes/api');
@@ -16,6 +17,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(jsend.middleware);
+
+// CORS
+app.use(corsSecurity);
 
 app.use('/', indexRouter);
 app.use('/api', apiRouter);
