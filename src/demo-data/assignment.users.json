@@ -1,0 +1,363 @@
+[{
+  "_id": {
+    "$oid": "6658d74ff32898cf8a177c46"
+  },
+  "number": "000001",
+  "firstname": "Admin",
+  "lastname": "Admin",
+  "email": "admin@miage.com",
+  "role": "ADMIN",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d74ff32898cf8a177c4a"
+  },
+  "number": "000002",
+  "firstname": "Michel",
+  "lastname": "Buffa",
+  "email": "admin@miage.com",
+  "role": "TEACHER",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d74ff32898cf8a177c4e"
+  },
+  "number": "000003",
+  "firstname": "Gabriel",
+  "lastname": "Mopolo",
+  "email": "admin@miage.com",
+  "role": "TEACHER",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d74ff32898cf8a177c52"
+  },
+  "number": "000010",
+  "firstname": "Gene",
+  "lastname": "Force",
+  "email": "gforce0@hibu.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d74ff32898cf8a177c56"
+  },
+  "number": "000011",
+  "firstname": "Corabel",
+  "lastname": "Snare",
+  "email": "csnare1@issuu.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d74ff32898cf8a177c5a"
+  },
+  "number": "000012",
+  "firstname": "Gard",
+  "lastname": "Disdel",
+  "email": "gdisdel2@springer.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c5e"
+  },
+  "number": "000013",
+  "firstname": "Anstice",
+  "lastname": "Skelington",
+  "email": "askelington3@360.cn",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c62"
+  },
+  "number": "000014",
+  "firstname": "Ryan",
+  "lastname": "Behn",
+  "email": "rbehn4@dion.ne.jp",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c66"
+  },
+  "number": "000015",
+  "firstname": "Larry",
+  "lastname": "Kiddey",
+  "email": "lkiddey5@census.gov",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c6a"
+  },
+  "number": "000016",
+  "firstname": "Eal",
+  "lastname": "Pavett",
+  "email": "epavett6@wordpress.org",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c6e"
+  },
+  "number": "000017",
+  "firstname": "Kiley",
+  "lastname": "de Guerre",
+  "email": "kdeguerre7@bloglovin.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c72"
+  },
+  "number": "000018",
+  "firstname": "Juieta",
+  "lastname": "Creeboe",
+  "email": "jcreeboe8@furl.net",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c76"
+  },
+  "number": "000019",
+  "firstname": "Christie",
+  "lastname": "Drabble",
+  "email": "cdrabble9@ocn.ne.jp",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c7a"
+  },
+  "number": "000020",
+  "firstname": "Walker",
+  "lastname": "Luquet",
+  "email": "wluqueta@irs.gov",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c7e"
+  },
+  "number": "000021",
+  "firstname": "Aarika",
+  "lastname": "Abercrombie",
+  "email": "aabercrombieb@scientificamerican.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c82"
+  },
+  "number": "000022",
+  "firstname": "Jobye",
+  "lastname": "Bowling",
+  "email": "jbowlingc@vimeo.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d750f32898cf8a177c86"
+  },
+  "number": "000023",
+  "firstname": "Stearne",
+  "lastname": "Cuddehy",
+  "email": "scuddehyd@newyorker.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177c8a"
+  },
+  "number": "000024",
+  "firstname": "Edeline",
+  "lastname": "Rikel",
+  "email": "erikele@miibeian.gov.cn",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177c8e"
+  },
+  "number": "000025",
+  "firstname": "Rik",
+  "lastname": "Osmint",
+  "email": "rosmintf@hexun.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177c92"
+  },
+  "number": "000026",
+  "firstname": "Gwenneth",
+  "lastname": "Pitcaithley",
+  "email": "gpitcaithleyg@hao123.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177c96"
+  },
+  "number": "000027",
+  "firstname": "Krispin",
+  "lastname": "Llorens",
+  "email": "kllorensh@ted.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177c9a"
+  },
+  "number": "000028",
+  "firstname": "Anderson",
+  "lastname": "Francke",
+  "email": "afranckei@1und1.de",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177c9e"
+  },
+  "number": "000029",
+  "firstname": "Melony",
+  "lastname": "Stive",
+  "email": "mstivej@360.cn",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177ca2"
+  },
+  "number": "000030",
+  "firstname": "Robyn",
+  "lastname": "Martinho",
+  "email": "rmartinhok@skyrock.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177ca6"
+  },
+  "number": "000031",
+  "firstname": "Dona",
+  "lastname": "Medlicott",
+  "email": "dmedlicottl@cargocollective.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177caa"
+  },
+  "number": "000032",
+  "firstname": "Thorstein",
+  "lastname": "Caesmans",
+  "email": "tcaesmansm@free.fr",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d751f32898cf8a177cae"
+  },
+  "number": "000033",
+  "firstname": "Lorraine",
+  "lastname": "Blowne",
+  "email": "lblownen@webnode.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d752f32898cf8a177cb2"
+  },
+  "number": "000034",
+  "firstname": "Nappie",
+  "lastname": "Eadmeads",
+  "email": "neadmeadso@list-manage.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d752f32898cf8a177cb6"
+  },
+  "number": "000035",
+  "firstname": "Philis",
+  "lastname": "Schlagtmans",
+  "email": "pschlagtmansp@yelp.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d752f32898cf8a177cba"
+  },
+  "number": "000036",
+  "firstname": "Basia",
+  "lastname": "Muck",
+  "email": "bmuckq@ted.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d752f32898cf8a177cbe"
+  },
+  "number": "000037",
+  "firstname": "Carny",
+  "lastname": "Cornelius",
+  "email": "ccorneliusr@over-blog.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d752f32898cf8a177cc2"
+  },
+  "number": "000038",
+  "firstname": "Vernor",
+  "lastname": "Baggarley",
+  "email": "vbaggarleys@hp.com",
+  "role": "STUDENT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658d752f32898cf8a177cc6"
+  },
+  "number": "000039",
+  "firstname": "Walton",
+  "lastname": "Pavelin",
+  "email": "wpavelint@themeforest.net",
+  "role": "STUDENT",
+  "__v": 0
+}]
