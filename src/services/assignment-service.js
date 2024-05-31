@@ -86,7 +86,7 @@ class AssignmentService {
           });
 
       if(assignment == undefined || assignment == null) {
-        throw new Error('Subject not found');
+        throw new Error('Assignment not found');
       }
 
       return assignment;
