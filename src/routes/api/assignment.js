@@ -4,10 +4,10 @@ var router = express.Router();
 const AssignmentService = require('../../services/assignment-service');
 
 router.get('/', async function(req, res) {
-  let body = req.body;
   try {
+    let page = req.query.page || 1;
     let assignmentService = new AssignmentService();
-    let data = await assignmentService.list();
+    let data = await assignmentService.list(page);
     res.jsend.success(data);
   } catch(err) {
     // console.log(err);
