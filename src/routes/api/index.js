@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.json({message: 'api entrypoint'});
-});
+// const UserRouter = require('./user');
+const SubjectRouter = require('./subject');
+const AssignmentRouter = require('./assignment');
+
+// router.use('user', UserRouter);
+router.use('/subject', SubjectRouter);
+router.use('/assignment', AssignmentRouter);
 
 module.exports = router;

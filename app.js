@@ -8,6 +8,7 @@ const corsSecurity = require('./src/middlewares/cors');
 var indexRouter = require('./routes/index');
 var apiRouter = require('./src/routes/api');
 var authRouter = require('./src/routes/auth');
+var DemoRouter = require('./src/routes/demo-data');
 const tokenSecurity = require('./src/middlewares/token');
 
 var app = express();
@@ -25,5 +26,6 @@ app.use(corsSecurity);
 app.use('/', indexRouter);
 app.use('/api', tokenSecurity, apiRouter);
 app.use('/auth', authRouter);
+app.use('/demo', DemoRouter);
 
 module.exports = app;

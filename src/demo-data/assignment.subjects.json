@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6658dbaef71228a5e4830a13"
+  },
+  "name": "Angular",
+  "teacher": {
+    "$oid": "6658d74ff32898cf8a177c4a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658dbaef71228a5e4830a16"
+  },
+  "name": "Node JS",
+  "teacher": {
+    "$oid": "6658d74ff32898cf8a177c4a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658dbaef71228a5e4830a18"
+  },
+  "name": "Big Data",
+  "teacher": {
+    "$oid": "6658d74ff32898cf8a177c4e"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658dbaef71228a5e4830a1a"
+  },
+  "name": "Tunning",
+  "teacher": {
+    "$oid": "6658d74ff32898cf8a177c4e"
+  },
+  "__v": 0
+}]
