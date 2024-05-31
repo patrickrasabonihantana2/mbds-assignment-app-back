@@ -19,7 +19,7 @@ function tokenSecurity(req, res, next) {
   tokenValue = tokenValue.startsWith('Bearer') ? tokenValue.substring(7) : tokenValue;
   try {
     let data = jwt.verify(tokenValue, Env.SECURITY_JWT_SECRET);
-    req.app.set('utilisateur', data.utilisateur);
+    req.app.set('user', data.user);
   } catch(err) {
     let data = {
       message: "token invalide"
