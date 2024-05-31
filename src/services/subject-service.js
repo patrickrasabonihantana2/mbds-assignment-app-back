@@ -41,6 +41,22 @@ class SubjectService {
       }
     }
   }
+
+  async delete(id) {
+    try {
+      await mongoose.connect(Env.MONGO_URL);
+
+      let assignment = await Subject.findByIdAndDelete(id);
+
+      return assignment;
+    } catch(err) {
+      throw err;
+    } finally {
+      if(mongoose.connection.readyState == 'connected') {
+        await mongoose.disconnect();
+      }
+    }
+  }
 }
 
 module.exports = SubjectService;
