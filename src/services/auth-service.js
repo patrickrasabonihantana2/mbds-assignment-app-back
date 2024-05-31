@@ -26,10 +26,7 @@ class AuthService {
       // console.log(user);
 
       let tokenData = {
-        user: {
-          _id: user._id,
-          role: user.role
-        }
+        user: user
       };
       let token = jwt.sign(tokenData, Env.SECURITY_JWT_SECRET);
 
